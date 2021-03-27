@@ -22,11 +22,33 @@
 		<div class="avatar">
 		<form action="#" method="post" name="avatar" autocomplete="on">
 			<img src="img/av_256.png" alt="alt">
-			<input type="file" accept=".jpg, .png, .bmp" id="ava" name="foto">
+			<input type="file" accept=".jpg, .png, .bmp, .svg" id="ava" name="foto">
 			<label for="ava"><p>Choose foto</p></label>
 		</form>
 		</div>
-		
+		<div class="info">
+			<form action="#" method="post" name="info" autocomplete="on">
+				<ul>
+				<li><input type="text" name="firstname" maxlength="50" placeholder="First Name" required></li>
+				<li><input type="text" name="lastname" maxlength="50" placeholder="Last Name" required></li>
+				<li><input type="email" name="email" maxlength="50" placeholder="Email" required></li>
+				<li><input type="text" name="phone" maxlength="12" placeholder="Phone number" pattern="[0-9]{12}" required></li>
+				<li><input type="text" name="address" maxlength="100" placeholder="Address" required></li>
+				<li><input type="text" name="fb_link" maxlength="50" placeholder="FB link" required></li>
+				<li><button type="submit">Save changes</button></li>
+				</ul>
+			</form>	
+		</div>
+		<div class="password">
+			<form action="#" method="post" name="password" autocomplete="on">
+				<ul>
+				<li><input type="password" name="old_pas" maxlength="20" placeholder="Old password" required></li>
+				<li><input type="password" name="new_pas" maxlength="20" placeholder="New password" required></li>
+				<li><input type="password" name="repeat_pas" maxlength="20" placeholder="Repeat password" required></li>
+				<li><button type="submit">Change password</button></li>
+				</ul>
+			</form>	
+		</div>
 	</div>
 </body>
 </html>

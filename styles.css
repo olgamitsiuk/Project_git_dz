@@ -1,10 +1,13 @@
-body, ul{
-	margin: 0;
+body{
+	margin: 0 auto;
 	padding: 0;
+	width: 1200px;
 	font-family: arial;
 	font-size: 18px;
 }
 ul{
+	margin: 0;
+	padding: 0;
 	list-style-type: none;
 }
 a{
@@ -66,6 +69,7 @@ h1{
 }
 .avatar{
 	flex-basis: 20%;
+	padding: 10px 30px 10px 0px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -81,4 +85,36 @@ h1{
 	padding: 10px;
 	border-radius: 5px;
 	text-align: center;
+}
+.info, .password{
+	flex-basis: 40%;
+	display: flex;
+	flex-direction: column;
+	padding: 10px 30px 10px 0px;
+}
+.password{
+	padding-right: 0;
+}
+.info ul, .password ul{
+	flex-basis: 100%;
+}
+.info ul li, .password ul li{
+	padding: 10px 0px;
+}
+.info ul li input, .info ul li button,
+.password ul li input, .password ul li button{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #6c757d;
+	border-radius: 5px;
+	font-size: 18px;
+}
+.info ul li button, .password ul li button{
+	background-color: #6c757d;
+	color: #fff;
+}
+::placeholder{
+	font-size: 18px;
+	color: #779fa0;
 }
