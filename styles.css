@@ -2,6 +2,7 @@ body, ul{
 	margin: 0;
 	padding: 0;
 	font-family: arial;
+	font-size: 18px;
 }
 ul{
 	list-style-type: none;
@@ -32,4 +33,52 @@ a{
 .header li:last-child{
 	flex-basis: 70%;
 	justify-content: flex-end;
+}
+h1{
+	text-align: center;
+	font-weight: normal;
+}
+.menu{
+	margin: 20px 50px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	background-color: #cce5ff;
+	color: #2a639f;
+	border-radius: 10px;
+}
+.menu li{
+	text-align: center;
+}
+.menu li:first-child{
+	flex-basis: 20%;
+}
+.menu li:nth-child(2),
+.menu li:last-child{
+	flex-basis: 40%;
+}
+.form{
+	margin: 20px 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.avatar{
+	flex-basis: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#ava{
+	display: none;
+}
+.avatar p{
+	width: 256px;
+	box-sizing: border-box;
+	background-color: #6c757d;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	text-align: center;
 }
