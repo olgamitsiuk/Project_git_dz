@@ -55,7 +55,7 @@ h1{
 	text-align: center;
 }
 .menu li:first-child{
-	flex-basis: 20%;
+	flex-basis: 260px;
 }
 .menu li:nth-child(2),
 .menu li:last-child{
@@ -67,7 +67,7 @@ h1{
 	justify-content: space-between;
 }
 .avatar{
-	flex-basis: 20%;
+	flex-basis: 260px;
 	padding: 10px 30px 10px 0px;
 	display: flex;
 	flex-direction: column;
@@ -87,7 +87,7 @@ h1{
 	box-shadow: 0px 0px 5px #dee2e5;
 }
 .info, .password{
-	flex-basis: 40%;
+	flex-basis: 38%;
 	display: flex;
 	flex-direction: column;
 	padding: 10px 30px 10px 0px;
